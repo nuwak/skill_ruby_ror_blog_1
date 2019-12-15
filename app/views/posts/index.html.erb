@@ -1,0 +1,15 @@
+<h1>Posts</h1>
+
+<div class="row">
+    <% @posts.each do |post| %>
+    <div class="col-sm-4 pb-10">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><%= post.title %></h5>
+          <p class="card-text"><%= post.body %></p>
+          <%= link_to "Read more", post_path(post), class: 'btn btn-outline-primary' %>
+        </div>
+      </div>
+    </div>
+    <% end %>
+</div>
