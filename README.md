@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Написал простой блог для знакомства с ruby и ruby on rails.
 
-Things you may want to cover:
+## Выводы
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Писать в целом приятно, и быстро, но не хватает статической типизации и IDE не всегда может подсказать к какому объекту относиться свойство.
